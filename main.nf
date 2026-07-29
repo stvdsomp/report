@@ -218,16 +218,16 @@ output {
             excel >> "pacvar_repeat/reports/"
         }
     }
-    multiqc_report {
-        path { report ->
-            report >> "multiqc/multiqc_report.html"
-        }
-    }
-    multiqc_data {
-        path { data ->
-            data >> "multiqc/multiqc_data"
-        }
-    }
+//    multiqc _report {
+//         path { report ->
+//             report >> "multiqc/multiqc_report.html"
+//         }
+//     }
+//     multiqc_data {
+//         path { data ->
+//             data >> "multiqc/multiqc_data"
+//         }
+//     }
 }
 
 /*
